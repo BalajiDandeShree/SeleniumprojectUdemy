@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+	<listeners>
+		<listener class-name="com.listeners.pract.Listeners"></listener>
+	</listeners>
+
+	<test name="Personal loan">
+
+		<classes>
+			<class name="com.listeners.pract.TestListeners" />
+
+		</classes>
+
+
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

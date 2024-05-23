@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan Department">
+	<!-- <listeners> <listener class-name="com.listeners.ITestListenersClass"></listener> 
+		</listeners> -->
+	<test name="Personal loan">
+	<packages> 
+		<package name="com.testng.exaples"/>
+		
+
+	</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

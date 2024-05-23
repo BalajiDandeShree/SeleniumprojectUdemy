@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<suite name="Suite1">
+    <test name="Test1">
+    <groups>	
+				<run>	
+   					
+   					 <include name="regression"/>
+        		</run>	
+       		</groups>	
+        <classes>
+            <!-- Add your test classes for Suite1 here -->
+            <class name="com.beforeAfterGroup.TestBeforeAfterGrou"/>
+         
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T23:33:47 PDT" name="Loan Department" finished-at="2024-05-22T23:33:47 PDT" duration-ms="37">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestExample3.testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" name="testBeforeTest" class="com.testng.parameter.exaples.TestExample3"/>
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-05-22T23:33:47 PDT" name="Personal loan" finished-at="2024-05-22T23:33:47 PDT" duration-ms="37">
+      <class name="com.testng.parameter.exaples.TestExample3">
+        <test-method signature="testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" started-at="2024-05-22T23:33:47 PDT" name="testBeforeTest" finished-at="2024-05-22T23:33:47 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method signature="testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@316bcf94]" started-at="2024-05-22T23:33:47 PDT" name="testOne" finished-at="2024-05-22T23:33:47 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- com.testng.parameter.exaples.TestExample3 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

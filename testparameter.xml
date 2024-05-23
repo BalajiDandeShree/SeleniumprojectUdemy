@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+
+	<parameter name="URL" value="asawxyz.cpm">
+	</parameter>
+	<test name="Personal loan">
+		<parameter name="URL" value="xyz.cpm">
+		</parameter>
+		<classes>
+			<parameter name="URL" value="xyz.cpm.cd.cdc">
+			</parameter>
+			<class name="com.testng.parameter.exaples.TestParameter">
+				<parameter name="URL" value="xyz.cpm.cd.cdc.class name">
+				</parameter>
+				<method name="test_parameter">
+					<parameter name="URL" value="xyz.cpm.cd.cdc.method name"/>
+					<parameter name="shree" value="shree"/>
+					<parameter name="URL1"
+						value="xyz.cpm.cd.cdc.method asaksjalks">
+					</parameter>
+				</method>
+			</class>
+
+		</classes>
+
+	</test> <!-- Test -->
+
+	<!-- <test name="Personal loan1"> <parameter name="URL" value="abckdm.xs"> 
+		</parameter> <classes> <class name="com.testng.exaples.TestParameter2" /> 
+		</classes> </test> -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+
+	<test name="Personal loan">
+		
+		<classes>
+			<class name="com.testng.exaples.TestCase" />
+			<class name="com.testng.exaples.TestExample2" >
+			  <methods>
+			  <include name="testBus" /> 
+			  </methods>
+			</class>
+			
+			
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

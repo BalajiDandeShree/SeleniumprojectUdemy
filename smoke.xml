@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+
+	<test name="Personal loan">
+		<groups>
+			<run>
+				<include name="Smoke" />
+				<!-- <exclude name="Sanity" /> -->
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.testng.parameter.exaples.TestExample2" />
+			<class name="com.testng.parameter.exaples.TestExample3" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

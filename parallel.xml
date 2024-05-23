@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department" parallel="tests" thread-count="5">
+	<!-- <listeners> <listener class-name="com.listeners.ITestListenersClass"></listener> 
+		</listeners> -->
+	<test name="Personal loan1" parallel="classes" thread-count="5">
+		<classes>
+
+			<class name="com.testng.exaples.TestExample2"/>
+				<class name="com.testng.exaples.TestExample3"/>
+			</classes>
+	</test> <!-- Test -->
+	
+		<test name="Personal loan" parallel="classes" thread-count="5">
+		<classes>
+
+			<class name="com.testng.exaples.TestExample2" />
+				<class name="com.testng.exaples.TestExample3"/>
+			</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+	<!-- <listeners> <listener class-name="com.listeners.ITestListenersClass"></listener> 
+		</listeners> -->
+	<test name="Personal loan">
+		<classes>
+
+			<class name="com.testng.parameter.exaples.TestExample2">
+				<methods>
+					<include name="test.*"></include> 
+					<!--   regular expression n test cases  -->
+				</methods>
+
+			</class>
+
+			<class name="com.testng.parameter.exaples.TestExample3">
+			<methods>
+			<include name="testOne" />
+			<include name="testTwo" />
+			</methods>
+				
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
