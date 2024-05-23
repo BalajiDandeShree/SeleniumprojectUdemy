@@ -1,5 +1,7 @@
 package com.testng.parameter.exaples;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -26,6 +28,8 @@ public class TestExample3 {
 	@BeforeTest @Test(groups = {"Smoke",})
 	public void testBeforeTest() {
 		System.out.println("Print before test of eample");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.com/");
 	}
 	
 	@BeforeSuite
