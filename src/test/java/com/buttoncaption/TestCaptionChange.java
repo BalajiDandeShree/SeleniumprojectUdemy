@@ -14,7 +14,7 @@ public class TestCaptionChange {
 	//@Test
 	public void testCaption() throws Exception {
 		WebDriver driver = new ChromeDriver();
-		driver.get("C:\\selenium\\HTML code for practice\\shree.html");
+		driver.get("D:\\selenium\\HTML code for practice\\shree.html");
 		WebElement cta = driver.findElement(By.id("myButton"));
 		System.out.println(cta.getText());
 		cta.click();
@@ -26,7 +26,7 @@ public class TestCaptionChange {
 	public void testDuplicateKey() {
 		Map<String,String> map = new HashMap<String,String>();
 		map.put("100", "Shree");
-		map.put("100", "Shree");
+		map.put("100", "Shreejkjk");
 		
 		for(String s : map.keySet()) {
 			System.out.println(s);

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.utility.TestExceptio">
+      <class name="com.udmey.project.practise.DynamicDropDown">
         <methods>
-          <include name="shree"/>
+          <include name="testDynamicDropDown"/>
         </methods>
-      </class> <!-- com.utility.TestExceptio -->
+      </class> <!-- com.udmey.project.practise.DynamicDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

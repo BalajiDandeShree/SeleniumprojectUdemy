@@ -18,6 +18,7 @@ public class TestScreenShotonFailures extends BaseClass{
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertEquals("Google1", driver.getTitle());
 		softAssert.assertAll();
+		
 	}
 	
 

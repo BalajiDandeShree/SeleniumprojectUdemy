@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-23T00:48:58 PDT" name="Loan Department" finished-at="2024-05-23T00:49:03 PDT" duration-ms="5223">
+  <suite started-at="2024-05-23T01:12:11 PDT" name="Loan Department" finished-at="2024-05-23T01:12:13 PDT" duration-ms="2544">
     <groups>
       <group name="Sanity">
-        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="TestExample3.testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" name="testBeforeTest" class="com.testng.parameter.exaples.TestExample3"/>
-        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
+        <method signature="TestExample3.testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" name="testBeforeTest" class="com.testng.parameter.exaples.TestExample3"/>
+        <method signature="TestExample3.testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" name="testOne" class="com.testng.parameter.exaples.TestExample3"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-05-23T00:48:58 PDT" name="Personal loan" finished-at="2024-05-23T00:49:03 PDT" duration-ms="5223">
+    <test started-at="2024-05-23T01:12:11 PDT" name="Personal loan" finished-at="2024-05-23T01:12:13 PDT" duration-ms="2544">
       <class name="com.testng.parameter.exaples.TestExample3">
-        <test-method signature="testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" started-at="2024-05-23T00:48:58 PDT" name="testBeforeTest" finished-at="2024-05-23T00:49:03 PDT" duration-ms="5190" status="PASS">
+        <test-method signature="testBeforeTest()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" started-at="2024-05-23T01:12:11 PDT" name="testBeforeTest" finished-at="2024-05-23T01:12:13 PDT" duration-ms="2511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBeforeTest -->
-        <test-method signature="testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@39529185]" started-at="2024-05-23T00:49:03 PDT" name="testOne" finished-at="2024-05-23T00:49:03 PDT" duration-ms="0" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:com.testng.parameter.exaples.TestExample3@32502377]" started-at="2024-05-23T01:12:13 PDT" name="testOne" finished-at="2024-05-23T01:12:13 PDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->

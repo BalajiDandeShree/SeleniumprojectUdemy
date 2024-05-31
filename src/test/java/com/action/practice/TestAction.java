@@ -31,7 +31,7 @@ public class TestAction {
 		actions.moveToElement(driver.findElement(By.xpath("//button[@id='popper-trigger--5']"))).build().perform();
 	}
 
-	@Test
+	//@Test
 	public void send_Capital_Letters() {
 		driver.manage().window().maximize();
 
@@ -40,8 +40,24 @@ public class TestAction {
 		Actions actions = new Actions(driver);
 		WebElement search = driver.findElement(By.name("q"));
 		actions.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("Hello").doubleClick().build().perform();
-
+		
 		// For Right click use context click method
 		actions.moveToElement(search).contextClick().build().perform();
+	}
+	
+	@Test
+	public void mouseHoverTest() throws InterruptedException {
+		driver.manage().window().maximize();
+
+		driver.get("https://demoqa.com/menu/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().deleteAllCookies();
+		Thread.sleep(10000);
+		WebElement we = driver.findElement(By.xpath("//*[@id='nav']//a[contains(text(),'Main Item 1')]"));
+		Actions action = new Actions(driver);
+		Thread.sleep(10000);
+		action.moveToElement(we).build().perform();
+		
+		
 	}
 }

@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Loan Department]">
-  <parameter name="URL" value="asawxyz.cpm"/>
-  <test thread-count="5" name="Personal loan(failed)">
-    <parameter name="URL" value="xyz.cpm.cd.cdc"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.parameter.exaples.TestParameter">
-        <parameter name="shree" value="shree"/>
-        <parameter name="URL1" value="xyz.cpm.cd.cdc.method asaksjalks"/>
-        <parameter name="URL" value="xyz.cpm.cd.cdc.method name"/>
+      <class name="com.udmey.project.practise.DynamicDropDown">
         <methods>
-          <include name="test_Parameter_one" invocation-numbers="0"/>
+          <include name="testDynamicDropDown"/>
         </methods>
-      </class> <!-- com.testng.parameter.exaples.TestParameter -->
+      </class> <!-- com.udmey.project.practise.DynamicDropDown -->
     </classes>
-  </test> <!-- Personal loan(failed) -->
-</suite> <!-- Failed suite [Loan Department] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
